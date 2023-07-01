@@ -1,12 +1,13 @@
+import PokemonList from "./pages/PokemonList/PokemonList";
 import StyleGlobal from "./styleGlobal";
 
 
 function App() {
   return (
-   <>
-    <StyleGlobal/>
-    {/* <Home/> */}
-   </>
+    <>
+      <StyleGlobal />
+      <PokemonList />
+    </>
   );
 }
 
